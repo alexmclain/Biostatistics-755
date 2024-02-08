@@ -2036,6 +2036,12 @@ random intercept /type=UN subject=ID g gcorr v vcorr;
 run;
 
 
+*This time we'll use a transformation of FEV that "accounts" for height;
+data air_pol_trans;
+set air_pol;
+Log_FEV1_HT = Log_FEV1 - log(Height**2);
+run;
+
 
 *What we want to do here is estimate the longitudinal and cross-sectional effect of Age.
 *First, we'll center the age covariate;
