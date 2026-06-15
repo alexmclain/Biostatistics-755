@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_obesity_array_byprocessing",
+  "source_file": "Class-Material/SAS Examples/12 - GEE Example.sas",
+  "source_blob_sha": "e66b9629de74c240c0357b74cd2437bf6377b68f",
+  "source_commit": "cf9c7ef0bcc5a2e965cea0e3ad80428194b8ecda",
+  "tier": "real_data",
+  "notes": "Childhood-obesity cohort data: self-contained DATALINES (16 cohort cells) expanded into person-level rows with DATA-step arrays and nested do-loops, then unique subject IDs assigned via BY-group FIRST./LAST. processing, RETAIN, LAG, and a MERGE-free running total. Ends with PROC SORT + PROC MEANS BY cohort*year. Author's data-engineering kept verbatim; trailing PROC GENMOD/PROC GPLOT modeling+plot steps dropped. obs=100 caps the expanded rows."
+}

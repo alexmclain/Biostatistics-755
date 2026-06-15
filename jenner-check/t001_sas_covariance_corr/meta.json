@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_sas_covariance_corr",
+  "source_file": "Class-Material/SAS Examples/02 - SAS covariance.sas",
+  "source_blob_sha": "71e516c31a413c577685f2f398219d4ed1fc3763",
+  "source_commit": "cf9c7ef0bcc5a2e965cea0e3ad80428194b8ecda",
+  "tier": "real_data",
+  "notes": "PROC CORR (cov pearson) on the wide_lead blood-lead dataset, overall and BY treatment group. Self-contained DATALINES (100 subjects), no edits to the analysis. autoexec sets obs=100 and turns ods graphics off to focus on the listing output."
+}

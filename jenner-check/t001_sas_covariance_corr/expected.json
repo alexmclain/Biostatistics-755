@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-06-15T16:21:48.107981Z",
+  "_captured_run_id": "r_019ecc1658bc73a28a6116b8a1f4d3d6",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 100 rows from DATALINES.",
+    "NOTE: Wrote wide_lead (100 rows, 6 columns).",
+    "NOTE: PROC CORR data=wide_lead",
+    "NOTE: PROC SORT data=wide_lead",
+    "NOTE: PROC SORT statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

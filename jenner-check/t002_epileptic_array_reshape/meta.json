@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_epileptic_array_reshape",
+  "source_file": "Class-Material/SAS Examples/12 - GEE Example_pois.sas",
+  "source_blob_sha": "7636bd9d12a4f8efee305c9cd093e23a790e3ef8",
+  "source_commit": "cf9c7ef0bcc5a2e965cea0e3ad80428194b8ecda",
+  "tier": "real_data",
+  "notes": "Epileptic-seizure-count data: self-contained DATALINES (59 subjects, wide C0-C4) reshaped wide->long with DATA-step arrays and a do-loop, plus log/rate transforms, then PROC PRINT, PROC SORT, and PROC MEANS BY TRT*week (mean l_rate). The author's reshape and transform code is kept verbatim; the trailing SGPANEL/GEE modeling steps were dropped so the bundle focuses on the data-engineering and summary pipeline."
+}

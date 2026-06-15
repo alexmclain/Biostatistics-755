@@ -1,0 +1,39 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: ODS Graphics is OFF.
+NOTE: DATA cdystonia
+
+NOTE: Processing inline DATALINES (120 lines)
+
+NOTE: Read 120 rows from DATALINES.
+NOTE: Wrote cdystonia (120 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=cdystonia
+
+NOTE: PROC CONTENTS completed: 120 observations, 7 variables
+NOTE: DATA cdystonia
+
+
+NOTE: Read 100 rows from cdystonia.
+NOTE: Wrote cdystonia (100 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=cdystonia
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 100 rows from cdystonia.
+NOTE: Wrote cdystonia (100 rows, 9 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset MN_cdystonia has 18 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC PRINT data=MN_cdystonia
+
+NOTE: PROC PRINT completed: 18 observations printed, 3 variables
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
