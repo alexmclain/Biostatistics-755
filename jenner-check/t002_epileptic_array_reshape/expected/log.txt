@@ -1,0 +1,46 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: ODS Graphics is OFF.
+NOTE: DATA epileptic_w
+
+NOTE: Processing inline DATALINES (59 lines)
+
+NOTE: Read 59 rows from DATALINES.
+NOTE: Wrote epileptic_w (59 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA epileptic
+
+NOTE: Unlicensed mode - output limited to 100 observations.
+
+NOTE: Read 20 rows from epileptic_w.
+NOTE: Wrote epileptic (100 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA epileptic
+
+
+NOTE: Read 100 rows from epileptic.
+NOTE: Wrote epileptic (100 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=epileptic
+
+NOTE: PROC PRINT completed: 10 observations printed, 9 variables
+NOTE: PROC SORT data=epileptic
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 100 rows from epileptic.
+NOTE: Wrote epileptic (100 rows, 9 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset MN_TRT_dat has 5 observations and 5 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC PRINT data=MN_TRT_dat
+
+NOTE: PROC PRINT completed: 5 observations printed, 3 variables

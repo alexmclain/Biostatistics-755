@@ -1,0 +1,24 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: ODS Graphics is OFF.
+NOTE: DATA wide_lead
+
+NOTE: Processing inline DATALINES (100 lines)
+
+NOTE: Read 100 rows from DATALINES.
+NOTE: Wrote wide_lead (100 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CORR data=wide_lead
+
+NOTE: PROC SORT data=wide_lead
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 100 rows from wide_lead.
+NOTE: Wrote wide_lead (100 rows, 6 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC CORR data=wide_lead
+

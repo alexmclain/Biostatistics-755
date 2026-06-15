@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_cdystonia_freq_means",
+  "source_file": "Class-Material/SAS Examples/09 - LMM cdystonia.sas",
+  "source_blob_sha": "431813a6d3c90be739dad8652850eac587d4a5bc",
+  "source_commit": "cf9c7ef0bcc5a2e965cea0e3ad80428194b8ecda",
+  "tier": "real_data",
+  "notes": "Cervical-dystonia trial data drawn from the repo's own Class-Material/Data/cdystonia.csv, read inline as DATALINES so the bundle is self-contained. PROC CONTENTS, then a DATA step building new_id = site*100+id, PROC SORT + PROC MEANS BY treat*week (mean TWSTRS), and PROC FREQ treat*sex with a chi-square test. Substitutions vs the original: PROC IMPORT replaced by an inline DATA step on the same data, and the FREQ chi-square run over the full table (the original ran BY week, producing sparse single-cell tables). obs=100 caps the rows."
+}

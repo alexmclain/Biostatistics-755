@@ -1,0 +1,90 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: ODS Graphics is OFF.
+NOTE: DATA obesity_wide
+
+NOTE: Processing inline DATALINES (16 lines)
+
+NOTE: Read 16 rows from DATALINES.
+NOTE: Wrote obesity_wide (16 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=obesity_wide
+
+NOTE: PROC PRINT completed: 5 observations printed, 9 variables
+NOTE: DATA obesity
+
+NOTE: Unlicensed mode - output limited to 100 observations.
+
+NOTE: Read 1 rows from obesity_wide.
+NOTE: Wrote obesity (252 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=obesity
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: PROC PRINT completed: 30 observations printed, 11 variables
+NOTE: PROC SORT data=obesity
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 252 rows from obesity.
+NOTE: Wrote obesity (100 rows, 11 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA obesity2
+
+
+NOTE: Read 100 rows from obesity.
+NOTE: Wrote obesity2 (100 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=obesity2
+
+NOTE: PROC PRINT completed: 30 observations printed, 9 variables
+NOTE: PROC SORT data=obesity2
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 100 rows from obesity2.
+NOTE: Wrote obesity2 (100 rows, 9 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA obesity3
+
+
+NOTE: Read 100 rows from obesity2.
+NOTE: Wrote obesity3 (100 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA obesity4
+
+
+NOTE: Read 100 rows from obesity3.
+NOTE: Wrote obesity4 (100 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=obesity4
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 100 rows from obesity4.
+NOTE: Wrote obesity4 (100 rows, 7 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=obesity4
+
+NOTE: PROC PRINT completed: 30 observations printed, 7 variables
+NOTE: PROC SORT data=obesity4
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 100 rows from obesity4.
+NOTE: Wrote obesity4 (100 rows, 7 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset mndat has 7 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC PRINT data=mndat
+
+NOTE: PROC PRINT completed: 7 observations printed, 4 variables
